@@ -257,7 +257,6 @@ static const CGFloat kCancelHighlightThreshold = 4;
     [self.layer insertSublayer:_originShadow atIndex:0];
 
   } else if (![[self.layer.sublayers objectAtIndex:0] isEqual:_originShadow]) {
-    [_originShadow removeFromSuperlayer];
     [self.layer insertSublayer:_originShadow atIndex:0];
   }
 
